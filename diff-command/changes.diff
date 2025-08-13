@@ -1,0 +1,14 @@
+3a4
+> import sys
+19c20
+<     return 1
+---
+>     sys.exit(1)
+22,25c23
+< return 0
+< 
+< 
+< 
+---
+> sys.exit(0)
+\ No newline at end of file
